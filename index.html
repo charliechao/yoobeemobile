@@ -14,8 +14,20 @@
 
 	
 <body> 
+<div id="landingpagewrapper">
+<div id="landingpage">
+<h2>This is a mobile page, please resize your browser screen under 500px to view. <br></h2>
+<h2>You also can use browser  Devtools to emulate mobile phone-view <em> (Use Ctrl+Shift+I (or Cmd+Opt+I on Mac) to open the DevTools.)</em>. Best view on iPhone 5 emulation. <br></h2>
 
+<h2>If you really want to see what it looks like on real mobile, please scan the QR code below, it will install a phone app as this web page. <br>
+<p class="code"><img src="img/qrcode.png" alt="qrcode"> <br>
+Android only</p>
+</h2>
+</div>
+</div>	
 
+ <!-- show only after 500px -->
+<div class="homepagewrapper">
 <!-- Start of first page: #one -->
 <div class="page-wrapper">
 <div data-role="page" id="home">
@@ -57,6 +69,7 @@
 	</footer><!-- /footer -->
 </div><!-- /page one -->
 </div>
+</div> <!-- End of page wrapper -->
 
 <!-- Start of second page: #two -->
 <div data-role="page" id="two" data-theme="a">
@@ -190,19 +203,6 @@ $(function(){
 })
 
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
